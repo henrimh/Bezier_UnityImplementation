@@ -14,6 +14,11 @@ namespace Bezier.Features
 
         private void Awake()
         {
+            CreateObjects();
+        }
+
+        private void CreateObjects()
+        {
             if (Frequency <= 0 || Items == null || Items.Length == 0)
                 return;
 

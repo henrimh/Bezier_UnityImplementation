@@ -23,7 +23,7 @@ namespace Bezier.Features
         public string SortingLayerName;
 
 #if UNITY_EDITOR
-        [Tooltip("AutoUpdate works only in editor while paused or not playing.")]
+        [Tooltip("AutoUpdate works only in editor while paused or not playing. It works in build. (proven by Trail of Relics.")]
         public bool AutoUpdate; //Enable SplineEditor OnSceneGUI also...
 #endif
         public ShadowCastingMode ShadowCastingMode = ShadowCastingMode.Off;
