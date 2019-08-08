@@ -1,4 +1,6 @@
-This is a Bezier Spline implementation for Unity. 
+*** Yes the code could use comments if you're wondering. ***
+
+This is a Bezier Spline implementation for Unity.
 If you don't know what is a Bezier Spline, do check this out: https://en.wikipedia.org/wiki/Composite_B%C3%A9zier_curve
 
 The implementation can be used to:
