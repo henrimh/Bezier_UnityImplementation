@@ -60,6 +60,7 @@ namespace Bezier.Features
                 {
                     Progress += Time.deltaTime / Duration;
                     if (Progress > 1f)
+                        //Should convert this to a switch - Noticed this when checking the files for the guys at Veikkaus
                         if (Mode == SplineWalkerMode.Once)
                         {
                             Progress = 1f;
